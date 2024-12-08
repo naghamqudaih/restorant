@@ -1,0 +1,209 @@
+.body{
+    background-color: white;
+    direction: rtl;
+}
+
+
+
+.header{
+color:rgba(0,0,0,.5);
+background-color: white;
+
+
+}
+
+
+.navigation ul li {
+    display: inline-block;
+    float: right;
+    font-size: 22px;
+    font-family: fantasy;
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 10px;
+
+  
+}
+
+
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation ul li:hover {
+    background-color: white; 
+    color: rgba(0,0,0,.5);
+}
+
+.clear {
+    clear:both;
+}
+
+
+
+.landing-section{
+    background-color: #FFD006;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+     margin-bottom: 30px;
+}
+
+.a1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.img1{
+    width: 250px;
+    height: 250px;
+}
+
+
+.cards {
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.cards1 {
+    width: 250px;
+    height: 370px;
+    border: solid #FDD303 5px;
+
+    background-color: white;
+    color: tomato;
+    overflow: hidden;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 20px;
+
+    
+
+}
+
+
+.cards1 h1 {
+    color: crimson;
+    text-align: center;
+    font-size: 29px;
+}
+
+
+.cards1 img {
+    width: 250px;
+    height: 200px;
+}
+.cards1 p {
+    color: black;
+ 
+   
+}
+
+
+
+.drink {
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.drink .cards1 {
+    height: 400px;
+   
+
+}
+.drink .cards1 img {
+    width: 250px;
+    height: 270px;
+}
+
+
+
+.forms {
+    background-color: #FFD006;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+
+    margin-top: 50PX;
+    padding-bottom: 50PX;
+
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+
+
+}
+
+
+
+.forms1 div input{
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    margin: 10px;
+    border: 10dp black ;
+  
+  box-sizing: border-box;
+
+}
+
+.zer {
+    background-color: black;
+width: 100px;
+height: 50px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+color: white;
+
+margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+
+
+}
+
+
+.foot {
+
+    width: 33.3%;
+    height: 250px;
+    direction: rtl;
+    border-top: solid black  3px;
+    overflow: auto;
+
+}
+
+.foot img{
+    width: 50px;
+    height: 50px;
+}
